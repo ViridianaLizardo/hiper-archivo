@@ -21,7 +21,7 @@
 
         #welcome-text {
             font-weight: bold; 
-            color: #7b3fe4; /* verde permanente */
+            color: #7b3fe4; /* morado permanente */
         }
 
         .title {
@@ -57,13 +57,13 @@
             display: inline-block;
         }
 
-        /* Hover: sombra verde difuminada */
+        /* Hover: sombra morado difuminada */
         .hashtag:hover, .related-hashtag:hover {
             box-shadow: 0 0 15px 5px rgba(181,140,255,.6);
             background-color: transparent;
         }
 
-        /* --- TÍTULOS (enlaces de la izquierda) también con hover verde --- */
+        /* --- TÍTULOS (enlaces de la izquierda) también con hover morado --- */
         .title-link {
             margin: 2px 0;
             padding: 2px 5px;
@@ -301,7 +301,7 @@
                     link.href = url;
                     link.textContent = title;
                     link.target = '_blank';
-                    link.className = 'title-link';  // ← para efecto verde al hover
+                    link.className = 'title-link';  // ← para efecto morado al hover
                     leftSection.appendChild(link);
                     leftSection.appendChild(document.createElement('br'));
                 });
@@ -326,7 +326,7 @@
                 const relatedTagElement = document.createElement('a');
                 relatedTagElement.textContent = relatedTag;
                 relatedTagElement.href = '#';
-                relatedTagElement.className = 'related-hashtag'; // clase para hover verde
+                relatedTagElement.className = 'related-hashtag'; // clase para hover morado
                 relatedTagElement.addEventListener('click', (e) => {
                     e.preventDefault();
                     populateLeftSection(relatedTag.toLowerCase());
