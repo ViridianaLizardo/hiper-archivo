@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hiper_Archivo (verde en detalles)</title>
+    <title>Hiper_Fijaciones</title>
     <link rel="icon" type="image/png" href="favicon.png">
 
     <style>
-        /* --- GLOBAL: blanco y negro con acento verde --- */
+        /* --- GLOBAL: Lila y negro con acento morado --- */
         body {
-            background-color: ##F0DAF1;
-            color: #000000;
+            background-color: #F0DAF1;
+            color: #1e1033;
             font-family: 'Courier New', Courier, monospace;
             margin: 0;
             display: flex;
@@ -35,14 +35,14 @@
         /* cursor negro (sigue siendo negro) */
         .cursor {
             display: inline-block;
-            background-color: #000000;
+            background-color: #1e1033;
             width: 10px;
             height: 24px;
             animation: blink 1s step-start infinite;
         }
         @keyframes blink {
             50% {
-                background-color: #888888;
+                background-color: #4b2a7a;
             }
         }
 
@@ -51,7 +51,7 @@
             margin: 5px;
             padding: 5px 10px;
             cursor: pointer;
-            color: #000000;
+            color: #1e1033;
             background-color: transparent;
             transition: box-shadow 0.2s ease-in-out;
             display: inline-block;
@@ -67,13 +67,13 @@
         .title-link {
             margin: 2px 0;
             padding: 2px 5px;
-            color: #000000;
+            color: #1e1033;
             text-decoration: none;
             display: inline-block;
             transition: box-shadow 0.2s ease-in-out;
         }
         .title-link:hover {
-            box-shadow: 0 0 15px 5px rgba(0, 255, 0, 0.6);
+            box-shadow: 0 0 15px 5px rgba(181,140,255,.6);
             background-color: transparent;
             text-decoration: underline; /* se mantiene el subrayado original */
         }
@@ -86,10 +86,10 @@
             width: 70%;
             height: calc(80% - 30px); 
             background-color: #E2CCE3;
-            border: 3px solid #000000;
+            border: 3px solid #1e1033;
             display: flex;
             flex-direction: row;
-            color: #000000;
+            color: #1e1033;
             padding: 20px;
             overflow: hidden;
             box-shadow: 0 0 20px rgba(0,0,0,0.2);
@@ -101,7 +101,7 @@
             overflow-y: auto;
             text-align: left;
             padding-right: 10px;
-            border-right: 2px solid #000000;
+            border-right: 2px solid #1e1033;
         }
 
         .popup .right-section {
@@ -119,7 +119,7 @@
             overflow: hidden;
             display: flex;
             align-items: center;
-            color: #000000;
+            color: #1e1033;
         }
 
         .popup .related-tags {
@@ -131,7 +131,7 @@
             top: 10px;
             right: 10px;
             cursor: pointer;
-            color: #000000;
+            color: #1e1033;
             font-weight: bold;
             z-index: 10;
             margin-right: 15px;
@@ -141,7 +141,7 @@
             color: #333333;
         }
 
-        /* --- SCROLLBAR (negra, se vuelve verde al hacer clic) --- */
+        /* --- SCROLLBAR (negra, se vuelve morada al hacer clic) --- */
         .popup ::-webkit-scrollbar {
             width: 10px;
         }
@@ -150,7 +150,7 @@
             margin-top: 15px;
         }
         .popup ::-webkit-scrollbar-thumb {
-            background-color: #000000;
+            background-color: #1e1033;
             border-radius: 5px;
         }
         .popup ::-webkit-scrollbar-thumb:hover {
@@ -167,7 +167,7 @@
             background-color: #efe8fb;
         }
         body::-webkit-scrollbar-thumb {
-            background-color: #000000;
+            background-color: #1e1033;
             border-radius: 5px;
         }
         body::-webkit-scrollbar-thumb:hover {
@@ -190,7 +190,7 @@
     <div style="width: 100%; height: 30px;"></div>
 
     <script>
-        const welcomeMessage = "⚘𐀔⚘𐀔⚘ Archivo de Hiperfijaciones ⚘𐀔⚘𐀔⚘";
+        const welcomeMessage = "𐀔⚘𐀔⚘ Archivo de Hiperfijaciones ⚘𐀔⚘𐀔";
         let i = 0;
 
         function typeEffect() {
