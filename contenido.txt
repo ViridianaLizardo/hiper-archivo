@@ -1,0 +1,16 @@
+Embroiderly patter, https://github.com/embroidery-space/embroiderly, #repository #crosstitch #pattern_maker 
+Stitchfiddle, https://www.stitchfiddle.com/en, #crosstitch #crochet #pattern_maker #knitting
+Mexico climático, https://cambioclimatico.unam.mx/mexico-climatico/, #climate_change #data #geographic_data #data_visualizer 
+TerraClimate, https://www.climatologylab.org/terraclimate.html, #climate_data #data #geographic_data 
+Temperature Blanket, https://temperature-blanket.com/, #climate_data #data_visualizer #crochet #pattern_maker 
+Temperature blanket examples, https://www.reddit.com/r/crochet/?f=flair_name%3A%22Temperature%20Blankets%20%26%20Similar%20%22, #crochet #crochet_projects #reddit 
+Temperature dress, https://www.ravelry.com/patterns/library/temperature-dress, #crochet #crochet_projects #crochet_projects 
+ArcGIS crochet Style, https://www.esri.com/arcgis-blog/products/arcgis-pro/mapping/make-a-cross-stitch-style-map-in-arcgis-pro, #data_visualizer #cross_stitch
+Olivia_Johnson, https://handcharted.com/, #data_visualizer #cross_stitch #crochet
+Womens_work, https://womens-work.info/, #cross_stitch, #data_visualizer
+accidental_aRt, https://accidental-art.tumblr.com/, #data_visualizer, #R
+SENSES Earth Module, https://climatescenarios.org/earth/, #climate_data #data_visualizer #climate_change
+ERA5-EX Dataset (v1.0), https://doi.org/10.1038/s41597-026-08312-x, #climate_data #climate_change #data #scientific_papers
+Ecological Integrity Index, https://doi.org/10.1038/s41597-025-06485-5, #data #clima #biodiversity_data #scientific_papers
+StableClim, https://doi-org/10.1038/s41597-020-00663-3, #data #clima #climate_data  #scientific_papers #clima
+CactEcoDB, https://doi-org/10.1038/s41597-026-06936-7, #traits #data #scientific_papers #biodiversity_data
